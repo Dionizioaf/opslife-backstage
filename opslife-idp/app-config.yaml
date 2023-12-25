@@ -1,9 +1,9 @@
 app:
-  title: Scaffolded Backstage App
+  title: Ops Life Backstage App
   baseUrl: http://localhost:3000
 
 organization:
-  name: My Company
+  name: Ops Life
 
 backend:
   # Used for enabling authentication, secret is shared by all backend plugins
@@ -70,7 +70,12 @@ techdocs:
 
 auth:
   # see https://backstage.io/docs/auth/ to learn about auth providers
-  providers: {}
+  environment: development
+  providers:
+    github:
+      development:
+        clientId: 07f9ecd99ffc6d58ef64
+        clientSecret: 2c0ad7e2ab56dfe8812e6a852e4b250d6ed7a039
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options

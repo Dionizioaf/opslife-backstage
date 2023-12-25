@@ -1,0 +1,6 @@
+npx @backstage/create-app@latest
+
+# From your Backstage root directory
+yarn add --cwd packages/backend pg
+
+# Configure in app-config.yaml the database connection
