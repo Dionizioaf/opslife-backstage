@@ -4,3 +4,5 @@ npx @backstage/create-app@latest
 yarn add --cwd packages/backend pg
 
 # Configure in app-config.yaml the database connection
+
+# http://localhost:3000/create/actions
