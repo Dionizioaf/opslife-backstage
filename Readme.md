@@ -13,3 +13,12 @@ We need to start some environments, we are using podman, because docker in big e
 run the images:
 
 `sh ./scripts/run-podman-images.sh`
+
+
+
+
+## Ref used to build IDP
+
+- https://showcase.janus-idp.io/
+- https://github.com/RoadieHQ/software-templates/tree/main/scaffolder-templates
+- https://github.com/backstage/software-templates/tree/main/scaffolder-templates
