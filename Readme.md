@@ -22,3 +22,4 @@ run the images:
 - https://showcase.janus-idp.io/
 - https://github.com/RoadieHQ/software-templates/tree/main/scaffolder-templates
 - https://github.com/backstage/software-templates/tree/main/scaffolder-templates
+- https://backstage.spotify.com/learn/
